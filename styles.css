@@ -8,11 +8,3 @@
 .hero-logo{display:block;width:clamp(170px,25vw,280px);height:auto;margin:24px auto 0;object-fit:contain}
 .hero + .section{padding-top:38px}
 @media(max-width:700px){.hero{padding-block:35px 20px}.hero h1{font-size:clamp(2.4rem,10vw,4.7rem)}.hero-logo{width:min(52vw,240px)}.hero + .section{padding-top:28px}}
-
-img[src$="coach.jpg"]{
-  width: 100%
-  height:  auto  !important;
-  aspect-ratio: auto !important;
-  object-fit: contain !important;
-  max-height: none !important;
-}
