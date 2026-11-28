@@ -265,6 +265,21 @@ figcaption {
     overflow-wrap: anywhere;
 }
 
+.contact-row {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.contact-icon {
+    color: var(--blue);
+    font-size: 1.5rem;
+    width: 26px;
+    flex-shrink: 0;
+    text-align: center;
+    font-family: Georgia, serif;
+}
+
 footer {
     border-top: 1px solid var(--line);
     color: var(--muted);
